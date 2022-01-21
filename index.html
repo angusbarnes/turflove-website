@@ -7,20 +7,34 @@
 
 .bg {
   /* Full height */
-  width: 100%;
+  width: 85%;
 
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: none;
 }
     </style>
     <body>
-        <img src="./Map small.png" class="bg">
+        <h1>Address: smp.turflove.net, port: 42069</h1>
+        
         <h1>RECENT INFO</h1>
         <h5>Last Updated: 22/02/2022 00:56:13</h5>
-        <p>The Server is about to open. Updates will be posted here with important changes. Currently there are only two registered factions:
+        <p style="padding-bottom: 1%;">The Server is about to open. Updates will be posted here with important changes. Currently there are only two registered factions:
             The Overseers and Spawn City.
         </p>
+        <button onclick="myFunction()">Show Map</button>
+        <img src="./Map small.png" class="bg", id="map">
     </body>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("map");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
 </html>
