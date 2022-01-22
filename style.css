@@ -46,6 +46,14 @@ body, html {
     font-size: 20pt;
   }
   
+  .inline-img {
+    display: inline;
+    margin: 0 0.125em;
+    padding: 0;
+    height: 20px;
+    vertical-align: baseline;
+  }
+
   .topnav button {
     all: unset;
     float: left;
