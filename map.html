@@ -12,5 +12,18 @@
             <a class="active" href="./map.html">Map</a>
           </div>
     </header>
-    <body></body>
+    <body>        
+      <button onclick="myFunction()" style="font-size: 16pt; margin-bottom: 1.5%;"><b>Show Map</b></button>
+      <img src="./Map small.png" class="bg" style=" display: none;" id="map">
+    </body>
+    <script>
+      function myFunction() {
+          var x = document.getElementById("map");
+          if (x.style.display === "none") {
+              x.style.display = "block";
+          } else {
+              x.style.display = "none";
+          }
+      }
+    </script>
 </html>
