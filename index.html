@@ -1,34 +1,28 @@
 <!DOCTYPE html>
 <html>
-    <style>
-        body, html {
-  height: 100%;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: medium;
-  padding-left: 2%;
-}
-
-.bg {
-  /* Full height */
-  width: 85%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-    </style>
+    <head><link rel="stylesheet" href="style.css"></head>
+    <title>Politicraft</title>
+    <header>
+        <div class="topnav">
+            <img src="Politicraft.png">
+            <a class="active" href="#home">Home</a>
+            <a href="./rules.html">Rules</a>
+            <a href="./join.html">Join</a>
+            <a href="#home">Map</a>
+          </div>
+    </header>
     <body>
-        <img src="./Politicraft.png">
-        <h1>Address: smp.turflove.net, port: 42069</h1>
+        <h1>ABOUT</h1>
+        <p>
+            The server is designed to encourage cross play between different play styles trough the lense of political interactions. The main focus should be on having fun. In this server you can join a region, claim a region as your own, or even start new ones. Join the discord and contact the admins for more info.
+        </p>
         <h1>RECENT INFO</h1>
-        <h5>Last Updated: 22/02/2022 00:56:13</h5>
-        <p style="padding-bottom: 1%;">The Server is about to open. Updates will be posted here with important changes. Currently there are only two registered factions:
+        <h4>Last Updated: 22/01/2022 00:56:13</h5>
+        <p style="padding-bottom: 1%;">The Server will go live at 2:00PM. Updates will be posted here with important changes. Currently there are only two registered factions:
             The Overseers and Spawn City.
         </p>
         <button onclick="myFunction()" style="font-size: 16pt; margin-bottom: 1.5%;"><b>Show Map</b></button>
         <img src="./Map small.png" class="bg" style=" display: none;" id="map">
-        <iframe src="https://discord.com/widget?id=934070316999770184&theme=dark" style="display: block;" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
     </body>
     <script>
         function myFunction() {
